@@ -31,7 +31,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           HORIZON_WEBHOOK_URL: ${{ secrets.HORIZON_WEBHOOK_URL }}
-        run: uv run horizon --hours 48 --language zh
+        run: uv run horizon --hours 48
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

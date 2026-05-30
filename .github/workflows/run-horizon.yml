@@ -2,7 +2,7 @@ name: Daily Horizon
 
 on:
   schedule:
-    - cron: '30 7 * * *'  
+    - cron: '0 8 * * *'  
       timezone: 'Asia/Shanghai'
   workflow_dispatch:     # 允许手动触发
 

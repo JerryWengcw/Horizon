@@ -54,6 +54,18 @@
         "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
         "enabled": false,
         "category": "linux"
+      },
+      {
+        "name": "财联社-科技快讯",
+        "url": "https://www.cls.cn/rss/tech",
+        "enabled": true,
+        "category": "stock-tech"
+      },
+      {
+        "name": "财联社-电报（全市场）",
+        "url": "https://www.cls.cn/rss/telegraph",
+        "enabled": true,
+        "category": "stock-tech"
       }
     ],
     "reddit": {
@@ -109,18 +121,6 @@
       "keywords": [],
       "min_stars": 10,
       "max_items": 30
-    },
-    {
-      "name": "财联社-科技快讯",
-      "url": "https://www.cls.cn/rss/tech",
-      "enabled": true,
-      "category": "stock-tech"
-    },
-    {
-      "name": "财联社-电报（全市场）",
-      "url": "https://www.cls.cn/rss/telegraph",
-      "enabled": true,
-      "category": "stock-tech"
     }
   },
   "filtering": {
